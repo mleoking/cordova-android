@@ -38,8 +38,10 @@ ext {
 }
 
 android {
-    compileSdkVersion cdvCompileSdkVersion
-    buildToolsVersion cdvBuildToolsVersion
+    // compileSdkVersion cdvCompileSdkVersion
+    // buildToolsVersion cdvBuildToolsVersion
+    compileSdkVersion 'android-MNC'
+    buildToolsVersion '23.0.0 rc3'
     publishNonDefault true
 
     compileOptions {
